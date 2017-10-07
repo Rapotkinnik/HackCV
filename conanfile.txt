@@ -1,0 +1,16 @@
+[requires]
+OpenCV/3.1.0-0@piponazo/testing
+
+[generators]
+cmake
+
+[options]
+OpenCV:opencv_objdetect=True
+OpenCV:opencv_photo=True
+OpenCV:opencv_shape=True
+OpenCV:opencv_stitching=True
+OpenCV:opencv_video=True
+
+[imports]
+include, * -> ./deps/include # Copies files
+lib, * -> ./deps/lib # Copies files

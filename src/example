@@ -1,8 +1,6 @@
 // opencvexample.cpp : Defines the entry point for the console application.
 //
 
-#include "stdafx.h"
-
 #include "opencv2/imgproc.hpp"
 #include "opencv2/imgcodecs.hpp"
 #include "opencv2/highgui.hpp"

@@ -10,6 +10,7 @@ OpenCV:opencv_photo=True
 OpenCV:opencv_shape=True
 OpenCV:opencv_stitching=True
 OpenCV:opencv_video=True
+OpenCV:precompiled_headers=False
 
 [imports]
 include, * -> ./deps/include # Copies files

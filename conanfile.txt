@@ -1,5 +1,5 @@
 [requires]
-OpenCV/3.1.0-0@piponazo/testing
+OpenCV/3.3.0@piponazo/stable
 
 [generators]
 cmake

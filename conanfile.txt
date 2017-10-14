@@ -12,6 +12,6 @@ OpenCV:opencv_stitching=True
 OpenCV:opencv_video=True
 OpenCV:precompiled_headers=False
 
-[imports]
-include, * -> ./deps/include # Copies files
-lib, * -> ./deps/lib # Copies files
+#[imports]
+#include, * -> ./deps/include # Copies files
+#lib, * -> ./deps/lib # Copies files

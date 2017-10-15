@@ -17,10 +17,17 @@ if [[ "$(uname -s)" == 'Darwin' ]]; then
     pyenv virtualenv 2.7.10 conan
     pyenv rehash
     pyenv activate conan
+    
+    pip install conan --upgrade
+    pip install conan_package_tools
+    
+    conan user
+    conan remote add piponazo https://api.bintray.com/conan/piponazo/piponazo
+    exit 0
 fi
 
-pip install conan --upgrade
-pip install conan_package_tools
+pip install --user conan --upgrade
+pip install --user conan_package_tools
 
 conan user
 conan remote add piponazo https://api.bintray.com/conan/piponazo/piponazo
